@@ -1,82 +1,40 @@
-                    🏏 IPL Match & Player Performance Analytics 
-
+                                 # 🏏 IPL Match & Player Performance Analytics 
 
 ## 📌 Project Overview
 
-This project analyzes **Indian Premier League (IPL)** match-level and ball-by-ball data using Python to uncover valuable insights into team performance, player performance, match outcomes, venue statistics, and scoring patterns.
-
-The project follows the complete **Data Analytics Workflow**, including data understanding, data cleaning, feature engineering, exploratory data analysis (EDA), and data visualization to transform raw cricket data into meaningful business insights.
+This project analyzes Indian Premier League (IPL) match-level and ball-by-ball datasets using **Python** and **MySQL** to uncover insights into team performance, player statistics, venue trends, and match outcomes. It demonstrates a complete data analytics workflow, from data preprocessing to SQL-based business analysis and visualization.
 
 ---
 
 ## 🎯 Objectives
 
-- Analyze IPL match and player performance.
-- Clean and preprocess raw cricket datasets.
+- Analyze IPL team and player performance.
+- Clean and preprocess real-world cricket datasets.
 - Perform Exploratory Data Analysis (EDA).
-- Discover trends in batting, bowling, teams, venues, and match strategies.
-- Create insightful visualizations.
-- Generate data-driven business insights using Python.
+- Generate business insights using Python and SQL.
+- Visualize trends using Matplotlib and Seaborn.
 
 ---
 
 ## 📂 Dataset
 
-**Dataset:** IPL Matches & Ball-by-Ball Dataset (2008–2025)
+**Dataset:** IPL Matches & Ball-by-Ball Dataset (2008–2024)
 
 ### Files Used
 
-### 📄 matches.csv
-
-Contains:
-
-- Match ID
-- Season
-- Date
-- Match Type
-- City
-- Venue
-- Team 1
-- Team 2
-- Toss Winner
-- Toss Decision
-- Match Winner
-- Player of the Match
-- Result
-- Result Margin
-- Target Runs
-- Target Overs
-- Super Over
-- Method
-- Umpires
-
-### 📄 deliveries.csv
-
-Contains:
-
-- Match ID
-- Inning
-- Batting Team
-- Bowling Team
-- Over
-- Ball
-- Batter
-- Bowler
-- Non-Striker
-- Batter Runs
-- Extra Runs
-- Total Runs
-- Extras Type
-- Wicket Information
-- Dismissal Type
-- Fielder
+- `matches.csv` – Match-level information (1,095 matches)
+- `deliveries.csv` – Ball-by-ball information (260,920+ deliveries)
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠 Technologies Used
 
 - Python
+- SQL
 - Jupyter Notebook
+  Mysql Workbench
+### Python Libraries
+
 - Pandas
 - NumPy
 - Matplotlib
@@ -84,178 +42,116 @@ Contains:
 
 ---
 
-# 📚 Python Libraries
+## 📋 Project Workflow
 
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-```
+### 🔹 Data Understanding
+- Loaded datasets
+- Checked data types
+- Identified missing values
+- Removed duplicates
+- Performed statistical summary
 
----
+### 🔹 Data Cleaning
+- Handled missing values
+- Converted data types
+- Standardized team names
+- Prepared cleaned datasets
 
-# 🚀 Project Workflow
-
-## 📖 Phase 1 — Data Understanding
-
-- Dataset Loading
-- Data Inspection
-- Shape Analysis
-- Data Types
-- Missing Values Analysis
-- Duplicate Records Check
-- Summary Statistics
-
----
-
-## 🧹 Phase 2 — Data Cleaning
-
-- Handled Missing Values
-- Converted Date Columns
-- Corrected Data Types
-- Standardized Team Names
-- Exported Cleaned Dataset
-
----
-
-## ⚙️ Phase 3 — Feature Engineering
-
-Created New Features:
-
+### 🔹 Feature Engineering
+Created custom features:
 - Year
 - Month
 - Day
-- Match Phase
+- Match Phase (Powerplay, Middle Overs, Death Overs)
 - Boundary Indicator
 - Dot Ball Indicator
 
-### Match Phases
+### 🔹 Exploratory Data Analysis (EDA)
 
-- 🟢 Powerplay
-- 🟡 Middle Overs
-- 🔴 Death Overs
+Performed analysis on:
 
----
+- Team-wise match wins
+- Toss impact
+- Venue analysis
+- Seasonal trends
+- Player of the Match awards
+- Top run scorers
+- Top wicket takers
+- Strike rate analysis
+- Economy rate analysis
+- Boundary analysis
+- Partnership analysis
+- Powerplay & Death Overs performance
 
-## 📊 Phase 4 — Exploratory Data Analysis (EDA)
+### 🔹 SQL Business Analysis
 
-### 🏏 Match Analysis
+Implemented SQL queries using:
 
-- Team-wise Wins
-- Toss Impact
-- Venue Analysis
-- Player of the Match Analysis
-- Match Type Analysis
-- Match Result Analysis
-- Super Over Analysis
-- Matches per Season
-- Host City Analysis
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- HAVING
+- CASE WHEN
+- INNER JOIN
+- LEFT JOIN
+- Subqueries
+- Common Table Expressions (CTEs)
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
 
----
-
-### 🏏 Batting Analysis
-
-- Top Run Scorers
-- Most Fours
-- Most Sixes
-- Strike Rate Analysis
-- Boundary Percentage
-- Powerplay Runs
-- Death Overs Runs
-
----
-
-### 🎯 Bowling Analysis
-
-- Top Wicket Takers
-- Economy Rate
-- Dot Ball Analysis
-- Powerplay Wickets
-- Death Overs Wickets
+Solved 60+ business-oriented SQL queries to analyze player, team, and venue performance.
 
 ---
 
-### 👥 Team Analysis
+## 📊 Visualizations
 
-- Team Run Analysis
-- Team Wicket Analysis
-- Match Phase Analysis
-- Partnership Analysis
+Created 20+ visualizations using:
 
----
-
-# 📈 Visualizations
-
-The project includes multiple visualizations such as:
-
-- 📊 Bar Charts
-- 📈 Line Charts
-- 🥧 Pie Charts
-- 📉 Trend Analysis
-- Team Comparison Charts
-- Player Performance Charts
+- Bar Charts
+- Pie Charts
+- Line Charts
+- Box Plots
+- Seaborn Statistical Charts
 
 ---
 
-# 💡 Key Skills Demonstrated
+## 📈 Key Insights
+
+- Identified top-performing IPL teams and players.
+- Evaluated the impact of toss decisions on match outcomes.
+- Compared batting performance across Powerplay, Middle Overs, and Death Overs.
+- Ranked players based on runs, wickets, strike rate, and economy.
+- Analyzed venue-wise scoring patterns and team performance.
+
+---
+
+## 💼 Skills Demonstrated
 
 - Data Cleaning
 - Data Preprocessing
 - Feature Engineering
 - Exploratory Data Analysis (EDA)
+- SQL Business Analysis
 - Data Visualization
 - Business Insight Generation
-- Data Storytelling
-- Python Programming
+- Statistical Analysis
 
 ---
 
-# 📌 Project Results
+## 🚀 Future Enhancements
 
-✔️ Analyzed **1,095 IPL matches**
-
-✔️ Processed **260,920+ ball-by-ball records**
-
-✔️ Built multiple business-oriented visualizations
-
-✔️ Generated insights on:
-
-- Team Performance
-- Player Performance
-- Toss Decisions
-- Batting Trends
-- Bowling Performance
-- Venue Statistics
-- Match Outcomes
-- Scoring Patterns
+- Interactive Power BI Dashboard
+- KPI Dashboard
+- Player Performance Prediction
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-**Tejaswi Ram Divi**
+**Teja Divi**
 
-🎓 Aspiring Data Analyst
+🎓 B.Tech – Computer Science & Engineering
 
-### Skills
-
-- Python
-- SQL
-- Excel
-- Power BI
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-
----
-
-## ⭐ If you found this project useful, don't forget to Star this repository!
-Results
-Analyzed 1,095 IPL matches
-Analyzed 260,920+ ball-by-ball records
-Built multiple business-driven visualizations
-Generated insights on batting, bowling, venues, teams, toss decisions, and scoring patterns
-Author
-Tejaswi ram Divi "Aspiring Data Analyst"
+📊 Aspiring Data Analyst
