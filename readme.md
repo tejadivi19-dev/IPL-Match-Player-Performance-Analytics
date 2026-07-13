@@ -101,7 +101,7 @@ Implemented SQL queries using:
 - RANK()
 - DENSE_RANK()
 
-Solved 60+ business-oriented SQL queries to analyze player, team, and venue performance.
+Solved 30+ business-oriented SQL queries to analyze player, team, and venue performance.
 
 ---
 
@@ -136,7 +136,7 @@ Created 20+ visualizations using:
 - SQL Business Analysis
 - Data Visualization
 - Business Insight Generation
-- Statistical Analysis
+
 
 ---
 
