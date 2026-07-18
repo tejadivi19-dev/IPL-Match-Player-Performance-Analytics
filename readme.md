@@ -1,5 +1,13 @@
                                  # 🏏 IPL Match & Player Performance Analytics 
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=for-the-badge&logo=pandas" />
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Seaborn-Statistical%20Plots-blueviolet?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Sql-queries%20Plots-blueviolet?style=for-the-badge" />
+</p>                                 
+
 ## 📌 Project Overview
 
 This project analyzes Indian Premier League (IPL) match-level and ball-by-ball datasets using **Python** and **MySQL** to uncover insights into team performance, player statistics, venue trends, and match outcomes. It demonstrates a complete data analytics workflow, from data preprocessing to SQL-based business analysis and visualization.
