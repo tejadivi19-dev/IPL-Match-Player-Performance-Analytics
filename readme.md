@@ -1,12 +1,15 @@
-                                 # 🏏 IPL Match & Player Performance Analytics 
+# 🏏 IPL Match & Player Performance Analytics
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=for-the-badge&logo=pandas" />
+  <img src="https://img.shields.io/badge/numpy-numeric%20Analysis-green?style=for-the-badge&logo=numpy" /
   <img src="https://img.shields.io/badge/Matplotlib-Visualization-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Seaborn-Statistical%20Plots-blueviolet?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Sql-queries%20Plots-blueviolet?style=for-the-badge" />
-</p>                                 
+  <img src="https://img.shields.io/badge/MySQL-Queries-orange?style=for-the-badge&logo=mysql" />
+</p>
+
+---
 
 ## 📌 Project Overview
 
@@ -39,8 +42,9 @@ This project analyzes Indian Premier League (IPL) match-level and ball-by-ball d
 
 - Python
 - SQL
+- MySQL Workbench
 - Jupyter Notebook
-  Mysql Workbench
+
 ### Python Libraries
 
 - Pandas
@@ -53,6 +57,7 @@ This project analyzes Indian Premier League (IPL) match-level and ball-by-ball d
 ## 📋 Project Workflow
 
 ### 🔹 Data Understanding
+
 - Loaded datasets
 - Checked data types
 - Identified missing values
@@ -60,13 +65,16 @@ This project analyzes Indian Premier League (IPL) match-level and ball-by-ball d
 - Performed statistical summary
 
 ### 🔹 Data Cleaning
+
 - Handled missing values
 - Converted data types
 - Standardized team names
 - Prepared cleaned datasets
 
 ### 🔹 Feature Engineering
+
 Created custom features:
+
 - Year
 - Month
 - Day
@@ -109,13 +117,13 @@ Implemented SQL queries using:
 - RANK()
 - DENSE_RANK()
 
-Solved 30+ business-oriented SQL queries to analyze player, team, and venue performance.
+Solved **30+ business-oriented SQL queries** to analyze player, team, and venue performance.
 
 ---
 
 ## 📊 Visualizations
 
-Created 20+ visualizations using:
+Created **20+ visualizations** using:
 
 - Bar Charts
 - Pie Charts
@@ -144,7 +152,6 @@ Created 20+ visualizations using:
 - SQL Business Analysis
 - Data Visualization
 - Business Insight Generation
-
 
 ---
 
